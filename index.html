@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Best Ever">
+    <meta name="keywords" content="Amazin, Stuff">
+    <meta name="author" content="Ezra Pettingill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/darkly/bootstrap.min.css">
+<style>
+    table td {
+        padding: 0 0.5em
+    }
+    .tablePagination {
+        padding-left: 0;
+        margin-top: 1em;
+    }
+    .tablePagination:before {
+        content:"Pages: ";
+    }
+    .tablePagination li {
+        cursor: pointer;
+        display: inline-block;
+        list-style: none;
+        padding: 2px 9px;
+    }
+    .tablePagination li:hover {
+        background: #333;
+    }
+    .tablePagination .current {
+        background: #26b;
+        color: #fff;
+    }
+    .container { margin: 150px auto; max-width: 640px; }
+    h1{
+        width: 100%;
+        height: 100%;
+    }
+    a{
+        width: 100%;
+        height: 100%;
+    }
+    a:hover{
+        cursor: pointer;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <h1><a onclick="jimmy()">Click Me</a></h1>
+    <script>
+    function jimmy(){var myWindow = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "ha. ha. ha.", "width=800,height=500"); var elem = document.documentElement; if (elem.requestFullscreen) {    elem.requestFullscreen();  } else if (elem.mozRequestFullScreen) { /* Firefox */    elem.mozRequestFullScreen();  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */   myWindow.elem.webkitRequestFullscreen(); } else if (elem.msRequestFullscreen) {    myWindow.elem.msRequestFullscreen();  }setInterval(function() {    if (myWindow.closed == true){        myWindow = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "ha. ha. ha.", "width=800,height=500"); var elem = document.documentElement; if (elem.requestFullscreen) {    elem.requestFullscreen();  } else if (elem.mozRequestFullScreen) { /* Firefox */    elem.mozRequestFullScreen();  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */   myWindow.elem.webkitRequestFullscreen(); } else if (elem.msRequestFullscreen) {    myWindow.elem.msRequestFullscreen();  }    }  }, 500);}
+    </script>
+</body>
+</html>
